@@ -1,0 +1,25 @@
+Package: rvoteview
+Type: Package
+Version: 1.0
+Date: 2012-10-15
+Title: Run queries within voteview
+Author: Jeff Lewis <jblewis@polisci.ucla.edu>
+Maintainer: Felipe Nunes <felipenunes@ucla.edu>
+Depends:
+	R (>= 2.15.2),
+	rjson,
+	pscl
+Imports:
+	rjson,
+	pscl
+Description: Package provides functions to download, read, and search 
+	Roll Call votes from the U.S. Congress.
+License: GPL-3
+Collate:
+	'read.voteview.json.R'
+	'test.R'
+	'trim.R'
+	'vlist2df.R'
+	'voteview.download.R'
+	'voteview.search.R'
+	'voteview2rollcall.R'
